@@ -215,8 +215,10 @@ function generateCropColors(geojson) {
 
     // Generate a color palette (you can use more colors as needed)
     const colors = [
-        '#1f78b4', '#33a02c', '#e31a1c', '#ff7f00', '#6a3d9a',
-        '#b15928', '#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+        '#1f78b4', '#33a02c', '#e31a1c', '#ff7f00', '#6a3d9a', '#b15928',
+        '#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f', '#cab2d6', '#ffff99',
+        '#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462',
+        '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd', '#ccebc5', '#ffed6f'
     ];
 
     const cropColors = {};
