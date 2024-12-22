@@ -233,7 +233,7 @@ function addLegend(map, cropColors) {
     if (cropLegend) {
         cropLegend.remove();
     }
-Í
+
     const legend = L.control({ position: 'bottomright' });
 
     legend.onAdd = function () {
